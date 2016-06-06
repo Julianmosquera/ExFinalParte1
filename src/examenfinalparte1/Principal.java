@@ -6,8 +6,9 @@ public class Principal {
 
     /**
      * Constructor que usa el método suma con dos parametros que se le pasa.
+     *
      * @param j
-     * @param m 
+     * @param m
      */
     public Principal(int j, int m) {
         i = Suma(j, m);
@@ -15,24 +16,26 @@ public class Principal {
 
     /**
      * Usa tabien el método suma para sumar el un solo parametro sobre si mismo
-     * @param j 
+     *
+     * @param j
      */
-    public  Principal(int j) {
+    public Principal(int j) {
         i = Suma(j, j);
     }
 
     /**
      * Iguala la variable i a menos 1
      */
-    public  Principal() {
+    public Principal() {
         i = -1;
     }
 
     /**
      * Es un metodo para sumar
+     *
      * @param x
      * @param x1
-     * @return 
+     * @return
      */
     public int Suma(int x, int x1) {
         return x + x1;
